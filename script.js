@@ -11,7 +11,7 @@
 // ─────────────────────────────────────────────────────────────────
 const memories = [
     // All your beautiful memories together
-    { type: 'image', src: 'Images/where it all began.jpg', caption: 'Where it all began' },
+    { type: 'image', src: 'Images/where it all began.jpg', caption: 'Where it all began ♥' },
     { type: 'video', src: 'Videos/Vid1 First Date ever.mp4', caption: 'Our first date' },
     { type: 'image', src: 'Images/Pic on our way to first trip alone.jpeg', caption: 'First trip, just us' },
     { type: 'image', src: 'Images/Pic in our trip alone.jpg', caption: 'Just the two of us' },
@@ -29,13 +29,13 @@ const memories = [
     { type: 'video', src: 'Videos/Vid 5.mp4', caption: 'Just us' },
     { type: 'image', src: 'Images/IMG_0446.jpg', caption: 'Always' },
     { type: 'image', src: 'Images/Snapchat-577424559.jpg', caption: 'That smile' },
-    { type: 'image', src: 'Images/IMG_0742.jpg', caption: 'My Jeel' },
+    { type: 'image', src: 'Images/IMG_0742.jpg', caption: 'My Jeel ♥' },
     { type: 'video', src: 'Videos/Vid 6.mp4', caption: 'More of us' },
     { type: 'image', src: 'Images/IMG_1494.jpg', caption: 'You' },
     { type: 'image', src: 'Images/PXL_20240913_162055062.MP.jpg', caption: 'Home' },
     { type: 'image', src: 'Images/IMG_3178.JPG', caption: 'Lucky me' },
     { type: 'video', src: 'Videos/Vid 7.mov', caption: 'Our story' },
-    { type: 'image', src: 'Images/Pic that shows how we will look when we get real old.jpeg', caption: 'Growing old together' },
+    { type: 'image', src: 'Images/Pic that shows how we will look when we get real old.jpeg', caption: 'Growing old together ♥' },
 ];
 
 // ─────────────────────────────────────────────────────────────────
