@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>For Josh my Jeel</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="bgMusic" loop preload="auto">
+        <source src="cigarette_after_sex_-_Apocalypse_(mp3.pm).mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Cinematic Overlays -->
+    <div class="vignette"></div>
+    <div class="film-grain"></div>
+    <div class="light-leak"></div>
+
+    <!-- Ambient Particles -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- ═══════════════════════════════════════════
+         SCREEN 1: Opening
+    ═══════════════════════════════════════════ -->
+    <section id="opening" class="screen active">
+        <div class="opening-wrapper">
+            <div class="vinyl-record">
+                <div class="vinyl-label">
+                    <span>Apocalypse</span>
+                </div>
+            </div>
+            <p class="opening-whisper">touch anywhere to begin our story...</p>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SCREEN 2: Mixed Memories (Images + Videos)
+    ═══════════════════════════════════════════ -->
+    <section id="memories" class="screen">
+        <div class="memories-wrapper">
+            <h2 class="memories-heading">Our Story</h2>
+
+            <div class="memory-frame" id="memoryFrame">
+                <!-- Content dynamically inserted -->
+            </div>
+
+            <div class="memory-caption" id="memoryCaption">
+                <p></p>
+            </div>
+
+            <div class="memory-progress">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+
+            <div class="memory-controls">
+                <button id="prevBtn" class="nav-btn" aria-label="Previous">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                </button>
+                <button id="nextBtn" class="nav-btn" aria-label="Next">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SCREEN 3: The Question (After Memories)
+    ═══════════════════════════════════════════ -->
+    <section id="question" class="screen">
+        <div class="question-wrapper">
+            <p class="question-prelude">After all these beautiful moments together...</p>
+
+            <div class="question-text">
+                <span class="line line-1">Josh my Jeel,</span>
+                <span class="line line-2">will you be my</span>
+                <span class="line line-3">Valentine?</span>
+            </div>
+
+            <p class="from-signature">~ Shoq</p>
+
+            <div class="response-buttons">
+                <button id="yesBtn" class="btn-yes">
+                    <span>Yes</span>
+                    <div class="btn-glow"></div>
+                </button>
+                <button id="noBtn" class="btn-no">no</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SCREEN 4: Celebration
+    ═══════════════════════════════════════════ -->
+    <section id="celebration" class="screen">
+        <div class="celebration-wrapper">
+            <div class="love-letter">
+                <div class="letter-content">
+                    <p class="letter-greeting">My Gorgeous Josh,</p>
+
+                    <p class="letter-body">
+                        It's been 408 official days since our journey started. We've been through more hardships than easy parts. But in the end, what truly matters are the happy moments.
+                    </p>
+
+                    <p class="letter-body">
+                        Thank you for staying through those hardships and never leaving my side. <em>Thank you for choosing me.</em>
+                    </p>
+
+                    <p class="letter-body">
+                        I'm so grateful to have you by my side. I'm excited for all the days to come.
+                    </p>
+
+                    <p class="letter-body letter-love">
+                        I love you, my Jeel.
+                    </p>
+
+                    <p class="letter-close">
+                        Yours,
+                    </p>
+
+                    <p class="letter-signature">Shoq</p>
+                </div>
+
+                <div class="letter-seal"></div>
+            </div>
+        </div>
+
+        <canvas id="confettiCanvas"></canvas>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
