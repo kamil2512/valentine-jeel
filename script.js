@@ -12,7 +12,7 @@
 const memories = [
     // All your beautiful memories together
     { type: 'image', src: 'Images/where it all began.jpg', caption: 'The moment my heart found its home 💕' },
-    { type: 'video', src: 'Videos/Vid1 First Date ever.mp4', caption: 'Our first date... I was so nervous!' },
+    { type: 'video', src: 'Videos/Vid1 First Date ever.mp4', caption: 'Our very first date 💕' },
     { type: 'image', src: 'Images/Pic on our way to first trip alone.jpeg', caption: 'Our first adventure, just us two ✨' },
     { type: 'image', src: 'Images/Pic in our trip alone.jpg', caption: 'No one else, just you and me' },
     { type: 'image', src: 'Images/pic2 in our trip alone.jpg', caption: 'Making memories I\'ll never forget' },
@@ -21,10 +21,10 @@ const memories = [
     { type: 'image', src: 'Images/PXL_20240707_125632121.jpg', caption: 'You + Me = Everything' },
     { type: 'video', src: 'Videos/Vid 3.mp4', caption: 'This makes me smile every time' },
     { type: 'image', src: 'Images/Pic2.jpeg', caption: 'Can\'t help but love you' },
-    { type: 'image', src: 'Images/Pic where we are celebrating my bithday.JPG', caption: 'Best birthday because you were there 🎂' },
+    { type: 'image', src: 'Images/Pic where we are celebrating my bithday.JPG', caption: 'Celebrating with my favorite person 🥳' },
     { type: 'image', src: 'Images/Snapchat-539073826.jpg', caption: 'Being silly with my favorite person' },
     { type: 'video', src: 'Videos/Vid 4.mov', caption: 'Little moments, big love' },
-    { type: 'image', src: 'Images/PXL_20240814_115158222.MP.jpg', caption: 'How are you this adorable?' },
+    { type: 'image', src: 'Images/PXL_20240814_115158222.MP.jpg', caption: 'My whole heart 💗' },
     { type: 'image', src: 'Images/Pic3.jpeg', caption: 'My happy place is next to you' },
     { type: 'video', src: 'Videos/Vid 5.mp4', caption: 'Us in our element 💫' },
     { type: 'image', src: 'Images/IMG_0446.jpg', caption: 'I fall for you every single day' },
@@ -35,7 +35,7 @@ const memories = [
     { type: 'image', src: 'Images/PXL_20240913_162055062.MP.jpg', caption: 'Home is wherever you are' },
     { type: 'image', src: 'Images/IMG_3178.JPG', caption: 'So lucky you\'re mine' },
     { type: 'video', src: 'Videos/Vid 7.mov', caption: 'Our story is my favorite story' },
-    { type: 'image', src: 'Images/Pic that shows how we will look when we get real old.jpeg', caption: 'Still choosing you when we\'re old and grey 👴👵💕' },
+    { type: 'image', src: 'Images/Pic that shows how we will look when we get real old.jpeg', caption: 'Us, forever and always 👴👵💕' },
 ];
 
 // ─────────────────────────────────────────────────────────────────
